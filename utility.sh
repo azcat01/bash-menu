@@ -23,7 +23,7 @@ function write_header(){
     echo "---------------------------------------------------------------"
 }
 
-# Tampilan daftar pengguna yang login
+# Menampilkan daftar pengguna yang login
 function user_info(){
     local cmd="$1"
     case "$cmd" in 
