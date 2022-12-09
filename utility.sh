@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Variables
+LSB=/usr/bin/lsb_release
+
 # Konfirmasi setelah melakukan tindakan
 function pause() {
     local message="$@"
